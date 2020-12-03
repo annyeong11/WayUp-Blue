@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wayup</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+    <header class="header">
+            <div class="container">
+                <img src="img/logo.png" alt="wayup" class="logo animate__animated animate__fadeInDown">
+                <div class="wrapper">
+                <div class="offer container  animate__animated animate__fadeInLeft">
+                    <h1 class="title">С помощью верстки<br> Вы создадите ту жизнь, о которой <span>мечтаете!</span></h1>
+                    <p class="intro">Ваши стремления + настойчивость позволят Вам достичь чего угодно. Вы не верю в это. Но я знаю это на 100%. Вас не остановить!</p>
+                    <a href="#form" class="btn" id="btn">Двигаться к мечте!</a>
+                </div>
+                <img src="img/bag.png" alt="bag" class="bag animate__animated animate__fadeInRight">
+            </div>
+        </div>
+    </header>
+
+    <section class="about_all">
+        <div class="container" data-aos="flip-down" data-aos-duration="4000">
+            <h2 class="s2title">Что Вас ждет впереди</h2>
+            <div class="expect">
+                <div class="freetime">
+                    <img src="img/icon1.jpg" alt="time" class="icon">
+                    <h3 class="ex_title">Свободное время</h3>
+                    <p class="ex_intro">У Вас будет свободное время на семью и самое настоящее</p>
+                </div>
+
+                <div class="freetime">
+                    <img src="img/icon2.jpg" alt="time" class="icon">
+                    <h3 class="ex_title">Яркие путешествия</h3>
+                    <p class="ex_intro">Работать откуда угодно - что может быть лучше?</p>
+                </div>
+
+                <div class="freetime">
+                    <img src="img/icon3.jpg" alt="time" class="icon">
+                    <h3 class="ex_title">Создание ценности</h3>
+                    <p class="ex_intro">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form_send">
+        <div class="container sender " data-aos="zoom-out" data-aos-duration="4000">
+            <h3 class="form_title">Закажите Ваш билет в будущее</h3>
+            <div class="form_div" id="form">
+                <form action="#">
+                    <input type="text" name="name" placeholder="Имя" required class="input">
+                </form>
+
+                <form action="#">
+                    <input type="email" name="mail" placeholder="E-mail" required class="input">
+                </form>
+
+                <form action="#">
+                    <input type="tel" name="phone" placeholder="Телефон" required class="input">
+                </form>
+
+                <form action="#">
+                    <input type="text" name="purpose" placeholder="Чего я хочу?" required class="input">
+                </form>
+                <div class="forbtn">
+                    <button type="submit" class="btn_sbm" id="btnsb">Двигаться к мечте!</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright">© Все ваши мечты защищены вашим трудолюбием</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
